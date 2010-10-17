@@ -1,0 +1,51 @@
+Started by user anonymous
+Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@1eed59c
+Using strategy: Default
+Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@1eed59c
+GitAPI created
+Cloning the remote Git repository
+Cloning repository origin
+ERROR: Failed to clean the workspace
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_03-56-30\log
+	at hudson.Util.deleteFile(Util.java:260)
+	at hudson.Util.deleteRecursive(Util.java:302)
+	at hudson.Util.deleteContentsRecursive(Util.java:221)
+	at hudson.Util.deleteRecursive(Util.java:301)
+	at hudson.Util.deleteContentsRecursive(Util.java:221)
+	at hudson.Util.deleteRecursive(Util.java:301)
+	at hudson.FilePath$9.invoke(FilePath.java:821)
+	at hudson.FilePath$9.invoke(FilePath.java:819)
+	at hudson.FilePath.act(FilePath.java:753)
+	at hudson.FilePath.act(FilePath.java:735)
+	at hudson.FilePath.deleteRecursive(FilePath.java:819)
+	at hudson.plugins.git.GitAPI.clone(GitAPI.java:157)
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:747)
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:702)
+	at hudson.FilePath.act(FilePath.java:753)
+	at hudson.FilePath.act(FilePath.java:735)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:702)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1092)
+	at hudson.model.AbstractBuild$AbstractRunner.checkout(AbstractBuild.java:479)
+	at hudson.model.AbstractBuild$AbstractRunner.run(AbstractBuild.java:411)
+	at hudson.model.Run.run(Run.java:1280)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:139)
+ERROR: Error cloning remote repo 'origin' : Failed to delete workspace
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mERROR: Cause: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_03-56-30\log
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mTrying next repository
+ERROR: Could not clone repository
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFATAL: Could not clone
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.plugins.git.GitException: Could not clone
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:763)
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:702)
+	at hudson.FilePath.act(FilePath.java:753)
+	at hudson.FilePath.act(FilePath.java:735)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:702)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1092)
+	at hudson.model.AbstractBuild$AbstractRunner.checkout(AbstractBuild.java:479)
+	at hudson.model.AbstractBuild$AbstractRunner.run(AbstractBuild.java:411)
+	at hudson.model.Run.run(Run.java:1280)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:139)

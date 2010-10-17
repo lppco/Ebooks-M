@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserCause>
+          <authenticationName>anonymous</authenticationName>
+        </hudson.model.Cause_-UserCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.tasks.test.AggregatedTestResultPublisher_-TestResultAction>
+      <owner class="build" reference="../../.."/>
+      <descriptions class="java.util.concurrent.ConcurrentHashMap"/>
+      <jobs></jobs>
+    </hudson.tasks.test.AggregatedTestResultPublisher_-TestResultAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="build" reference="../../.."/>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>3</number>
+  <result>FAILURE</result>
+  <duration>162</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>E:\SE\hudson\jobs\Ebooks\builds</workspace>
+  <hudsonVersion>1.381</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits/>
+</build>
