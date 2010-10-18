@@ -8,19 +8,21 @@
         </hudson.model.Cause_-UserCause>
       </causes>
     </hudson.model.CauseAction>
+    <hudson.tasks.JavadocArchiver_-JavadocBuildAction>
+      <build class="build" reference="../../.."/>
+    </hudson.tasks.JavadocArchiver_-JavadocBuildAction>
     <hudson.tasks.test.AggregatedTestResultPublisher_-TestResultAction>
       <owner class="build" reference="../../.."/>
       <descriptions class="java.util.concurrent.ConcurrentHashMap"/>
       <jobs></jobs>
     </hudson.tasks.test.AggregatedTestResultPublisher_-TestResultAction>
-    <hudson.tasks.Fingerprinter_-FingerprintAction>
-      <build class="build" reference="../../.."/>
-      <record/>
-    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.tasks.MailMessageIdAction>
+      <messageId>&lt;19329695.21287378697854.JavaMail.Administrator@ghost-PC&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
   </actions>
-  <number>4</number>
+  <number>11</number>
   <result>FAILURE</result>
-  <duration>81</duration>
+  <duration>780</duration>
   <charset>GBK</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>

@@ -10,7 +10,7 @@ Group member:连燚、彭姣、陈虹霈、彭玉媛、欧君&#xd;
     <artifactDaysToKeep>-1</artifactDaysToKeep>
     <artifactNumToKeep>-1</artifactNumToKeep>
   </logRotator>
-  <keepDependencies>false</keepDependencies>
+  <keepDependencies>true</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.git.GitSCM">
     <configVersion>1</configVersion>
@@ -55,7 +55,7 @@ Group member:连燚、彭姣、陈虹霈、彭玉媛、欧君&#xd;
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers class="vector">
     <hudson.triggers.SCMTrigger>
-      <spec></spec>
+      <spec>* * * * * </spec>
     </hudson.triggers.SCMTrigger>
   </triggers>
   <concurrentBuild>true</concurrentBuild>
@@ -78,7 +78,7 @@ Group member:连燚、彭姣、陈虹霈、彭玉媛、欧君&#xd;
     </hudson.tasks.junit.JUnitResultArchiver>
     <hudson.tasks.Fingerprinter>
       <targets></targets>
-      <recordBuildArtifacts>false</recordBuildArtifacts>
+      <recordBuildArtifacts>true</recordBuildArtifacts>
     </hudson.tasks.Fingerprinter>
     <hudson.plugins.git.GitPublisher>
       <configVersion>2</configVersion>
@@ -86,9 +86,9 @@ Group member:连燚、彭姣、陈虹霈、彭玉媛、欧君&#xd;
       <pushOnlyIfSuccess>false</pushOnlyIfSuccess>
     </hudson.plugins.git.GitPublisher>
     <hudson.tasks.Mailer>
-      <recipients></recipients>
+      <recipients>845857466@qq.com 455158323@qq.com</recipients>
       <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
-      <sendToIndividuals>false</sendToIndividuals>
+      <sendToIndividuals>true</sendToIndividuals>
     </hudson.tasks.Mailer>
   </publishers>
   <buildWrappers/>

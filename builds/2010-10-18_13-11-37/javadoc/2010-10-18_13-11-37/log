@@ -1,12 +1,12 @@
 Started by user anonymous
-Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@1eed59c
+Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@14340bb
 Using strategy: Default
-Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@1eed59c
+Checkout:builds / E:\SE\hudson\jobs\Ebooks\builds - hudson.remoting.LocalChannel@14340bb
 GitAPI created
 Cloning the remote Git repository
 Cloning repository origin
 ERROR: Failed to clean the workspace
-[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_03-56-30\log
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_13-11-37\log
 	at hudson.Util.deleteFile(Util.java:260)
 	at hudson.Util.deleteRecursive(Util.java:302)
 	at hudson.Util.deleteContentsRecursive(Util.java:221)
@@ -32,7 +32,7 @@ ERROR: Failed to clean the workspace
 	at hudson.model.ResourceController.execute(ResourceController.java:88)
 	at hudson.model.Executor.run(Executor.java:139)
 ERROR: Error cloning remote repo 'origin' : Failed to delete workspace
-[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mERROR: Cause: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_03-56-30\log
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mERROR: Cause: Unable to delete E:\SE\hudson\jobs\Ebooks\builds\2010-10-18_13-11-37\log
 [8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mTrying next repository
 ERROR: Could not clone repository
 [8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFATAL: Could not clone
